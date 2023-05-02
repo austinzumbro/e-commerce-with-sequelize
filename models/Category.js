@@ -8,7 +8,7 @@ Category.init(
   {
     category_name: {
       type: DataTypes.STRING,
-      allNull: false
+      allowNull: false
     }
   },
   {
